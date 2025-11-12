@@ -12,7 +12,7 @@ services:
       MYSQL_USER: keycloak
       MYSQL_PASSWORD: password
   keycloak:
-    container_name: keycloak
+    container_name: orderBridge-keycloak
     image: quay.io/keycloak/keycloak:24.0.1
     command: [ "start-dev", "--import-realm" ]
     environment:
