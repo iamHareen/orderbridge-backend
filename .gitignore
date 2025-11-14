@@ -69,3 +69,5 @@ logs/
 # Ignore local database data directories from services
 */mysql/
 */data/
+
+*/volume-data/
